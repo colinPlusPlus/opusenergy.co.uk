@@ -48,5 +48,28 @@
 	margin-top: 3em;
 }
 
+.g--third, .g--third--last{
+	.header-background{
+		background-color: #eee;
+		padding: 2em;
+		
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	h3{
+		font-size: 18px;
+		font-weight: bold;
+		color: $colorBlue;
+	}
+	
+	p{
+		line-height: 1.3250em;
+		padding-top: 1.3250em;
+		padding-bottom: 1.3250em;
+	}
+}
+
 
 
