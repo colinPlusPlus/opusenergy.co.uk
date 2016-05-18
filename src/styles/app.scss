@@ -1,0 +1,52 @@
+@import 'components/components';
+
+.hero-image{
+	background: url(/assets/img/banner-SME-farmer.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 40px 0 60px;
+	.container{
+		h1{
+			font-size: 3em;
+			margin-top: 50px;
+		}
+		p{
+			margin-bottom: 50px;
+		}
+	}
+}
+
+.logo{
+	width: 10em;
+	margin: 0 auto;
+	display: block;
+}
+
+.btn-pink {
+  @extend .button;
+  @include style-button(#cf3f74, #ffffff);
+	border-radius: 2em;
+	
+	&:hover{
+		cursor: pointer;
+		@include style-button(lighten(#cf3f74, 5%), #ffffff);
+	}
+}
+
+.seperator{
+	background-color: $colorBlue;
+	color: white;
+	text-align: center;
+	padding: 50px 0;
+	h2{
+		font-size: 2em;
+	}
+}
+
+.row{
+	margin-top: 3em;
+}
+
+
+
