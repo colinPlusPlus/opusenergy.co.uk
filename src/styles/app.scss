@@ -38,7 +38,7 @@
 	background-color: $colorBlue;
 	color: white;
 	text-align: center;
-	padding: 50px 0;
+	padding: 2em 0;
 	h2{
 		font-size: 2em;
 	}
@@ -49,10 +49,10 @@
 }
 
 .g--third, .g--third--last{
+	margin-bottom: 5em;
 	.header-background{
 		background-color: #eee;
 		padding: 2em;
-		
 		img{
 			display: block;
 			margin: 0 auto;
