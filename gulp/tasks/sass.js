@@ -7,7 +7,7 @@ var sourcemaps   = require('gulp-sourcemaps');
 
 // Compile and Automatically Prefix Stylesheets
 gulp.task('sass', function () {
-  var dest = '.tmp/assets';
+  var dest = '.tmp/assets/css';
 
   // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src(['src/styles/*.{scss, sass}'])

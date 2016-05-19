@@ -56,8 +56,8 @@
   $colorPerformanceSecondary: lighten($colorPerformance, 30%) !default;
 
   // Defining font family
-  $fontDefault: Helvetica, Arial, sans-serif !default;
-  $fontHighlight: "Roboto Condensed", Helvetica, sans-serif !default;
+  $fontDefault: "averta", Arial, sans-serif !default;
+  $fontHighlight: "averta", Helvetica, sans-serif !default;
   $fontIcon: "icons" !default;
 
   // Defining font sizes
@@ -68,6 +68,9 @@
   $fontXLarge: 42px !default;
   $fontXXLarge: 68px !default;
   $fontHuge: 110px !default;
+  
+  //Defining font path
+  $font-path: '../../fonts/';
 
   // Defining baseline line height
   $lineHeight: 26px !default;
