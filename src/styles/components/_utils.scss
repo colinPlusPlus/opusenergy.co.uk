@@ -23,7 +23,9 @@
 
   // Defining colors
   $colorBlue: #283244 !default;
-  $colorBlueSecondary: lighten($colorBlue, 30%) !default;
+  $colorBlueSecondary: lighten($colorBlue, 5%) !default;
+  $colorPink: #cf3f74 !default;
+  $colorPinkSecondary: lighten($colorPink, 5%) !default;
   $colorGreen: #0f9d58 !default;
   $colorGreenSecondary: lighten($colorGreen, 30%) !default;
   $colorRed: #cb4437 !default;
@@ -70,7 +72,7 @@
   $fontHuge: 110px !default;
   
   //Defining font path
-  $font-path: '../../fonts/';
+  $font-path: '../../assets/fonts/';
 
   // Defining baseline line height
   $lineHeight: 26px !default;

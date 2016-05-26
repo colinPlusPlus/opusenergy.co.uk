@@ -2,7 +2,7 @@ var browserSync = require('browser-sync');
 var gulp        = require('gulp');
 
 gulp.task('browserSync', [
-  'browserify', 'coffeelint',
+  'browserify',
   'copyCssJs', 'copyHtml', 'copyOther',
   'sass', 'images', 'jade'
 ], function() {

@@ -25,12 +25,12 @@
 
 .btn-pink {
   @extend .button;
-  @include style-button(#cf3f74, #ffffff);
+  @include style-button($colorPink, #ffffff);
 	border-radius: 2em;
 	
 	&:hover{
 		cursor: pointer;
-		@include style-button(lighten(#cf3f74, 5%), #ffffff);
+		@include style-button($colorPinkSecondary, #ffffff);
 	}
 }
 
@@ -68,6 +68,13 @@
 		line-height: 1.3250em;
 		padding-top: 1.3250em;
 		padding-bottom: 1.3250em;
+	}
+	a{
+		color: $colorPink;
+		
+		&:hover {
+			color: lighten($colorPink, 15%);
+		}
 	}
 }
 
